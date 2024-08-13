@@ -1,0 +1,41 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    align-content: center;
+    background-color: bisque;
+}
+.header,.image,.details
+{
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgbga(0,0,0,0.1);
+}
+.header h1
+{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 2cm;
+    color:black;
+    margin: 0;
+}
+.image img
+{
+    align-items: center;    
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.details
+{
+    align-items: center;
+    align-content: center;
+    font-size: 1cm;
+    color:black;
+    background-color: lightslategrey;
+}
